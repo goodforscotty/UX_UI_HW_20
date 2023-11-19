@@ -1,0 +1,137 @@
+/* Reset and General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #3a3e3d; /* Match main portfolio page colors */
+}
+
+header {
+    padding: 20px;
+    background-color: #00c9e7; /* Match main portfolio page colors */
+}
+
+.super-h1 {
+    font-size: 58px;
+    color: #F2F2F2;
+}
+
+.topLogoSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    align-self: flex-start;
+    padding: 10px;
+}
+
+.logo-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo-container-TopList ul {
+    list-style: none;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-container-TopList li {
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+}
+
+/* Case Study Styles */
+.caseStudy {
+    padding: 40px;
+}
+
+.caseStudyHeader {
+    text-align: center;
+}
+
+.caseStudyHeader h1 {
+    color: #00c9e7; /* Match main portfolio page colors */
+}
+
+.subheading {
+    font-size: 1.2em;
+    color: #3a3e3d; /* Match main portfolio page colors */
+}
+
+.caseStudyContent h2 {
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #00c9e7; /* Match main portfolio page colors */
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+
+
+footer {
+    background-color: #00c9e7;
+    text-align: center;
+  }
+
+
+
+  b1 {
+    background-color: #3a3e3d;
+    color: #F2F2F2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+.paragraph-section {
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+
+.paragraph-section p {
+    background-color: #F2F2F2;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.footer-content {
+    display: flex;
+    background-color: #00c9e7;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+.footer-list li {
+    margin: 5px 0;
+}

@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+}
+
+
+header {
+
+    padding: 20px;
+    align-items: center;position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3a3e3d; /* Add your preferred background color */
+        width: 100%;
+    z-index: 1000;
+
+}
+
+
+.topLogoSection {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.logo-container {
+    align-self: flex-start;
+    padding: 10px
+}
+
+
+.logo-container-TopList ul {
+    list-style: none;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.logo-container-TopList li {
+    margin-right: 20px;
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: #3a3e3d; /* Add your preferred background color */
+    padding: 10px; /* Add your preferred padding */
+    width: 150px; /* Set a fixed width for the navigation */
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+
+
+
+.container {
+    display: flex;
+    color: #F2F2F2;
+    background-color: #3a3e3d;
+    width: 100%;
+
+}
+
+
+.column {
+    padding: 0px;
+}
+
+
+.column-one {
+    width: 25%;
+
+    padding-left: 0px;
+}
+
+
+.column-two {
+    width: 75%;
+    background-color: #00c9e7;
+    /* outline: 1px solid red;*/
+}
+
+
+.hero-section {
+    display: flex;
+
+
+}
+
+
+.text-section {
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: #00c9e7;
+    color: #F2F2F2;
+    font-size: large;
+    font-weight: 500;
+    /* outline: 1px solid orange; */
+}
+
+
+.image-section {
+
+    margin-bottom: -3px;
+    margin-top: -15px;
+}
+
+
+h1 {
+    margin: 0;
+   
+}
+
+.super-h1 {
+    font-size: 58px;
+}
+
+p {
+    color: #3a3e3d;
+    
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+
+footer {
+    background-color: #00c9e7;
+    text-align: center;
+  }
+
+
+button, a {
+    background-color: #3a3e3d;
+    color: #F2F2F2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+
+.paragraph-section {
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
+
+.paragraph-section p {
+    background-color: #F2F2F2;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.footer-content {
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+.footer-list li {
+    margin: 5px 0;
+}
+
+
+/* Start of Homework 18 */
+
+
+.mySkills {
+    display: flex;
+    color: #3a3e3d;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    /* outline: 1px solid red; */
+
+}
+
+
+.skill {
+    width: 33%;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+        text-align: left;
+   
+}
+
+.skillTop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+.tools {
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    /*outline: 1px solid red;*/
+}
+
+.myWork {
+    display: grid;
+    color: #3a3e3d;
+    grid-template-columns: 1fr;
+    /* outline: 1px solid red; */
+}
+
+
+.workGrid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    /* outline: 1px solid orange; */
+}
+
+
+.project {
+    margin: 10px;
+    padding: 10px;
+}
+
+.tab-content {
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#skillsDiv {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s ease-out;
+}
+
+#toolsDiv {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+.tab-content.show {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+#toolsDiv.show {
+    display: block;
+}
+
+
+
+/* Start of Homework 19 */
+
+
+.tab-container {
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.tab-button {
+    padding: 10px;
+    background-color: #F2F2F2;
+    color: #00c9e7;
+    user-select: none;
+    font-size: 24px; 
+    transition: color 0.5s ease, border-bottom 0.3s ease;
+}
+
+
+#skills-tab.active {
+    color: #3a3e3d; 
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-weight: 600;
+}
+
+#tools-tab.active {
+    color: #3a3e3d; 
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-weight: 600;
+}
+
+
+/* STEP 6 - Mobile Media Query */
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        color: #F2F2F2;
+        background-color: #3a3e3d;
+        width: 100%;
+
+    }
+
+
+    .column {
+        padding: 0px;
+    }
+
+    .column-one {
+        width: 100%;
+    }
+
+
+    .column-two {
+        width: 100%;
+        background-color: #00c9e7;
+
+    }
+
+    nav ul {
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .text-section {
+        padding-top: 40px;
+        padding-left: 20px;
+        background-color: #00c9e7;
+        color: #F2F2F2;
+        /* outline: 1px solid orange; */
+    }
+
+    .mySkills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+
+    .myWork {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns:
+            grid-template-areas: "project1"
+            "project2"
+            "view-all";
+    }
+
+    .project {
+        margin: 10px;
+        padding: 10px;
+    }
+}
