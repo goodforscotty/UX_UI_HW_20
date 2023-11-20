@@ -147,7 +147,7 @@ footer {
 
 .card {
     color: #F2F2F2;
-    background-color: red;
+    background-color: #FF3B3B;
     padding-left: 10px;
     padding-top: 20px;
   
@@ -181,4 +181,23 @@ footer {
     justify-content: space-evenly;
     padding: 20px;
     
+}
+
+button, b1 {
+    background-color: #3a3e3d;
+    color: #F2F2F2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.super-h1 {
+    font-size: 58px;
+}
+
+img {
+    padding: 30px;
+    justify-content: center;
 }
