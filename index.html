@@ -1,263 +1,317 @@
 <!DOCTYPE html>
-<html>
-
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="CSS/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  
-    </head>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Against Hunger Canada - UX/UI Case Study</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Add your custom styles here -->
+    <link rel="stylesheet" href="css/caseStudyStyle.css"> 
+</head>
 <body>
-    <section class="topLogoSection">
 
-
-        <div class="logo-container">
-            <img src="images/logo.png" alt="">
-        </div>
-
-
-       <!-- <div class="logo-container-TopList">
-            <ul>
-                <li>About</li>
-                <li>Resume</li>
-            </ul>
-        </div> -->
-
-
-    </section>
-    <div class="container">
-        <div class="column-one">
-
-
-            <nav>
-                <ul>
-                    <li><a href="#skills">Skills</a></li>
-                    <p></p>
-                    <li><a href="#projects">Projects</a></li>
-                    <p></p>
-                    <li><a href="#illustration">Illustration</a></li>
-                    <p></p>
-                    <li><a href="#justForFun">Just for Fun</a></li>
-                    <p></p>
-                    <li><a href="">About ↗</a></li>
-                    <p></p>
-                    <li><a href="">Resume ↗</a></li>
-                    <p></p>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
+<header>
+    <div class="logo-container">
+        <img src="images/logo.png" alt="">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+           <h3> Kids Against Hunger Canada - UX/UI Case Study</h3></a>
+        
+    </nav>
+</header>
 
 
 
+  
+  <!-- Introduction -->
+  <section class="container my-5">
+    <img src="images/csHeaderImage.png" >
+    <h1>Kids Against Hunger Canada - UX/UI Case Study</h1>
+    <p>
+      Welcome to my portfolio! In this case study, I'll take you through the journey of transforming Kids Against Hunger Canada's website to create a user-centric and impactful digital experience.
+    </p>
+    <img src="images/workingGroup7.jpg" width="500px">
 
-        </div>
-        <div class="column-two">
-            <div class="hero-section">
-                <div class="text-section">
-                    <h1 class="super-h1">I build user-friendly digital experiences. </h1>
-                    <p>I'm Scotty Graham, a UX/UI designer with roots in print and illustration.</p>
-                </div>
-                <div class="image-section">
-                    <img src="images/headshot.png" alt="Headshot">
-                </div>
+    <p>The team UX/UI designers on this project.</p>
+  </section>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Project Phases</a>
+    <!-- Navigation links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#introduction">Introduction</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#business">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#research">Research</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#problem">Problem Statement</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#iteration">Iteration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#prototype">Prototype</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+  <!-- Problem Identification -->
+  <section class="container my-5">
+    <h2>Problem Identification</h2>
+    <p>
+      Kids Against Hunger Canada had a noble mission, but their website faced challenges—lack of trust, an outdated design, and information overload. My goal was to enhance transparency, showcase impact, and ultimately increase contributions to combat child hunger.
+    </p>
+
+    <div class="containerProblemStatement">
+        <div class="card" style="width: 18rem;">
+            <h2 class="h2ProblemStatement">Problem</h1>
+            <div class="card-body">
+              <p class="card-text">We have observed that their website does not exhibit trustworthiness due to a dated design and lack of transparency; this is <b>resulting in donor skepticism and fewer donations.</b></p>
             </div>
-            <div class="paragraph-section">
-
-                <!-- Start of Homework 18 STEP 3-->
-                <title>My Portfolio</title>
-               
-
-                    
-<!-- Start of Homework 19 -->
-
-<!-- index.html -->
-<div class="tab-container">
-    <button class="tab-button active" id="skills-tab">Ethos</button>
-    <button class="tab-button" id="tools-tab">Tools</button>
-</div>
-<section class="mySkills" id="skills">
-<div id="skillsDiv" class="tab-content show">  <div class="square"></div>
-<!--<h1>Skills</h1>-->
-<div class="flexContainer">
-    <div class="skill">
-        <div class="skillTop">
-        <img src="images/your_skill_icon3.jpg" alt="Skill Icon 1">
-        <h3>Insight</h3>
-    </div>
-    <div class="skillBottom">
-        <p>“If I asked people what they wanted, they would have said faster horses.”<br><br><i>
-            -- Henry Ford, Ford Motor Co.</i></p>
+          </div>
+    
+          <div class="card" style="width: 18rem;">
+            <h2 class="h2ProblemStatement">How might we...</h1>
+            <div class="card-body">
+              <p class="card-text">How might we increase contributions by improving transparency in the donation process and demonstrating the reputation and impact of KAHC?</p>
+            </div>
         </div>
-        </div>
-    <div class="skill">
-        <div class="skillTop">
-        <img src="images/your_skill_icon1.jpg" alt="Skill Icon 2">
-        <h3>Purpose</h3>
-    </div>
-        <p>“If there’s no problem, there’s no solution, and no reason for a company to exist.”<br><br><i>
-            -- Vinod Khosla,    
-                Khosla Ventures</i></p>
-    </div>
-    <div class="skill">
-        <div class="skillTop">
-        <img src="images/your_skill_icon2.jpg" alt="Skill Icon 3">
-        <h3>Teamwork</h3>
-        </div>
-        <p>“Trust is knowing that when a team member does push you, they're doing it because they care about the team.”<br><br><i>
-            -- Patrick Lencioni, The Table Group</i></p>
-    </div>
-</div>
-</div>
+          </div>
 
-<div id="toolsDiv" class="tab-content show" style="display:none;"> <!-- Content for Tools tab -->
-    <!-- TOOLS -->
-    <div class="tools">
-     
-            <div>
-            <img src="images/tool-figma.jpg" alt="Skill Icon 3">
-        <h3>Figma</h3>
-        </div>
+  </section>
+  
+  <!-- Collaboration with Stakeholders -->
+  <section class="container my-5">
+    <h2>Collaboration with Stakeholders</h2>
+    <p>
+      Collaborating with Shirley and the Kids Against Hunger Canada team, we identified key areas: donation process, diverse giving options, logo consistency, and mission statement representation. This collaboration laid the foundation for a user-focused redesign.
+    </p>
 
-        <div>
-            <img src="images/tool-cc.jpg" alt="Skill Icon 3">
-        <h3>Adobe CC</h3>
+    <div class="containerStakeholder">
+        
+        <div class="card2" style="width: 18rem;">
+          
+                <img src="/images/stakeholderImage.png" alt="">
+            <div class="card-body">
+              <p class="card-text"></b></p>
+            </div>
+          </div>
+    
+          <div class="card2" style="width: 18rem;">
+            <h2 class="h2ProblemStatement"></h1>
+            <div class="card-body"><BR>
+              <p class="card-text">“We want to reduce friction on a donation.”</p>
+              <p class="card-text">“One of our challenges is that we don’t lack in volunteers, but the food costs money and we need donors.”</p>
+              <p class="card-text">“I think the mission statement is the core message we want to convey through the website.”</p>
+            </div>
         </div>
-        <div>
-            <img src="images/tool-shopify.jpg" alt="Skill Icon 3">
-        <h3>Shopify</h3>
-        </div>
-        <div>
-            <img src="images/tool-google.jpg" alt="Skill Icon 3">
-        <h3>Google</h3>
-        </div>
-        <div>
-            <img src="images/tool-ms365.jpg" alt="Skill Icon 3">
-        <h3>MS 365</h3>
-        </div>
-    </div>
-</div>
-<!-- End of what I added Nov8th, 10:19-->
-                   
+          </div>
 
-                       
-                    </section>
+          <div class="containerCompetition">
+            
+            <div class="card2" style="width: 30rem;">
+                <h2 class="h2ProblemStatement"></h1>
+                <div class="card-body"><BR>
+                    <h2 class="h2ProblemStatement">The Competition</h1>
+                  <p class="card-text">So, how do non-profit organizations encourage donors to contribute?
+                    Though an analysis of competitors, we narrowed it down to three key elements:<br><br><b>
+                    Engaging & Inclusive Design<br>
+                    Financial Transparency<br>
+                    </b>and<b> Impactful Storytelling</p></b>
+                    </div>
+            </div>
 
+            <div class="card2" style="width: 18rem;">
+              
+                    <img src="/images/Competition.png" width="300px">
+                <div class="card-body">
+                  <p class="card-text"></b></p>
+                </div>
+              </div>
+        
+             
+              </div>
+          
+  </section>
+  
+  <!-- User-Centric Discovery -->
+  <section class="container my-5">
+    <h2>User-Centric Discovery</h2>
+    <img src="/images/donorInterviews.jpg">
+    <p>
+      Through interviews, surveys, and empathy mapping, I discovered users like Sarah, a detail-oriented project manager. Key findings emphasized user preferences for financial transparency, a simple donation process, and a clean, trustworthy design. Addressing these insights drove the redesign.
+    </p>
+    <img src="/images/userPersona.jpg" width="600px">
+    <img src="/images/summaryOfDiscoveryPhase.jpg" width="900px">
+  </section>
+  
+  <!-- Ideation and Branding -->
+  <section class="container my-5">
+    <h2>Ideation and Branding</h2>
+    <img src="/images/Brand Design Refresh.jpg">
+    
+    <p>
+      Embracing a fresh brand look, I simplified the logo, introduced vibrant colors, and focused on impactful imagery. </p>
+      
+      
+      <img src="/images/Donor concerns addressed - digestible information.jpg">
+      
+      
+      
+    <img src="/images/Donor concerns - trust.jpg"> 
+    <img src="/images/Donor concerns - good design and navigation.jpg">
+    <p>Compelling landing pages, live counters, and trust-building visuals were strategically implemented to create an engaging and transparent user experience.
+    </p>  
 
-                    <section class="myWork" id="projects">
-                        <h1>Projects</h1>
-
-                        <div class="workGrid">
-                            <div class="project">
-                                <img src="images/project_rev-1.jpg" alt="Project 1">
-                                <h4>Cultivating Solutions</h4>
-                                <p>I helped build a supportive community app for plant lovers called Florio that helps users stop killing their plants.</p>
-                                <button>View Project</button>
-                            </div>
-                            <div class="project">
-                                <img src="images/project_rev-2.jpg" alt="Project 2">
-                                <h4>Kids Against Hunger Canada</h4>
-                                <p>I helped a non-profit attract more donations by boosting transparency and trust on their website.
-                                </p>
-                                <button>View Project</button>
-                            </div>
-                            <div class="project">
-                                <img src="images/project_rev-3.png" alt="Project 3">
-                                <h4>Wayfarerr</h4>
-                                <p>I created a mobile app to help travellers discover hidden gems and local resources.</p>
-                                <button>View Project</button>
-                            </div>
-                            <div class="project">
-                                <img src="images/project_rev-4.jpg" alt="Project 4">
-                                <h4>CBC/Radio Canada</h4>
-                                <p>A re-imagined CBC/Radio Canada.</p>
-                                <button>View Project</button>
-                            </div>
-                        </div>
-                                              </style>
-                    </section>
-<!-- ILLUSTRATION 
-
-
-<section class="myWork" id="illustration">
-    <br>
-    <br>
-    <h1>Illustration</h1>
-
-    <div class="workGrid">
-        <div class="project">
-            <img src="images/illustration_image1.jpg" alt="Project 1">
-            <h4>Special Delivery</h4>
-            <p>An online specialty gift shop focused on local artisans and same-day delivery.</p>
-            <button>View Project</button>
-        </div>
-        <div class="project">
-            <img src="images/illustration_image2.jpg" alt="Project 2">
-            <h4>Mount Dennis BIA</h4>
-            <p>Encouraging community pride through a celebration of local features on banners.
-            </p>
-            <button>View Project</button>
-        </div>
-        <div class="project">
-            <img src="images/illustration_image3.jpg" alt="Project 3">
-            <h4>Crosslinx</h4>
-            <p>A community outreach featuring Eglinton Ave, the future home of the Crosstown LRT.</p>
-            <button>View Project</button>
-        </div>
-        <div class="project">
-            <img src="images/illustration_image4.jpg" alt="Project 4">
-            <h4>DesignTO</h4>
-            <p>A retro-futuristic installation for DesignTO’s  TRANSITioning Mount Dennis.</p>
-            <button>View Project</button>
-        </div>
-    </div>
-        </style>
 </section>
+  
+  <!-- Solution Implementation -->
+  <section class="container my-5">
+    <h2>Solution Implementation</h2>
+    <p>
+        <img src="/images/Prototyping.jpg"><br>
+      Redesigning key pages, enhancing financial transparency, and streamlining the donation process were the core solutions. The result is a friction-free user journey, driving increased contributions. Explore the redesigned website and witness the impactful changes.
+    </p><br>
+    <img src="/images/BeforeAndAfterMain.jpg">
+    <img src="/images/BeforeAndAfterDonate.jpg">
 
- JUST FOR FUN
-
-<section class="myWork" id="justForFun">
+  </section>
+  
+  <!-- Refining and Testing -->
+  <section class="container my-5">
+    <h2>Refining and Testing</h2>
+    <p>
+      Real-world feedback through guerrilla testing led to significant changes—revamping the logo, updating the navigation bar, and refining content presentation. Each refinement was guided by user data, ensuring an optimal and well-received design.
+    </p><br>
+    <img src="/images/RefineTestRepeat.jpg">
     <br>
     <br>
-    <h1>Just For Fun</h1>
+    <img src="/images/Iternating.jpg">
+    <br>
+    <br>
+    <br>
+    <section id="iteration" class="container">
+    
+        <p>To address the challenges, we embarked on a journey involving wireframing, refining and testing, analyzing key findings, A/B testing, and creating a seamless user experience. The process included:</p>
+        <ul>
+            <li>Revamping the logo for better visibility</li>
+            <li>Enhancing navigation for improved user experience</li>
+            <li>Implementing a compelling landing page with a live meal counter</li>
+            <li>Highlighting financial transparency and spending through infographics</li>
+            <li>Streamlining the donation process into a concise 2-step form</li>
+        </ul>
+    </section>
+   
 
-    <div class="workGrid">
-        <div class="project">
-            <img src="images/fun_image1.jpg" alt="Project 1">
-            <h4>HolidayCardsTO</h4>
-            <p>Annual artist collective founded by me and in it’s sixth season.</p>
-            <button><a href="https://holidaycardsto.myshopify.com/">Shop Now</a></button>
-        </div>
-        <div class="project">
-            <img src="images/fun_image2.jpg" alt="Project 2">
-            <h4>TTC Shop</h4>
-            <p>All proceeds go to Frontlines serving the Weston-Mount Dennis community for their Roots and STEM program.
-            </p>
-            <button><a href="https://www.ttcshop.ca/products/wish-you-were-here-mount-dennis-to-kennedy-poster?variant=15454120280145">Shop Now</a></button>
-        </div>
-       
-    </div>
-       </style>
-</section>-->
+  </section>
+  
+  <!-- A/B Testing -->
+  <section class="container my-5">
+    <h2>A/B Testing</h2>
+       <p>
+      Iterative A/B testing fine-tuned the design, ensuring it resonated with users. User preferences guided decisions, resulting in a final version that is not just visually appealing but also highly effective.
+    </p>
+    
+    <br><br>
+    <img src="/images/ABTesting.jpg">
+      
 
-                    <!-- END of Homework 18 STEP 3-->
+</section>
+  
+  <!-- Desktop Version Walkthrough -->
+  <section class="container my-5">
+    <h2>Desktop Version Walkthrough</h2>
+    <br><br>
+    <img src="/images/WalkthroughDesktop.png">
+    <br><br>
+    <p>
+        <a href="https://www.figma.com/proto/0XEqF7rnhr2pL4gOsQJRMS/Kids-Against-Hunger-Canada-Redesign-(SG-Final-Copy)?type=design&node-id=761-14094&t=13JWRgUr7BsyUzBg-0&scaling=scale-down&page-id=761%3A14093&starting-point-node-id=761%3A14094">Click here</a> to immerse yourself in the final desktop version walkthrough. Experience how research and iterative design merge seamlessly to create an impactful user experience. Navigate through the pages and witness the transformation.
+    </p>
+  </section>
+  
+ <!-- Mobile Version Walkthrough -->
+ <section class="container my-5">
+    <h2>Mobile Version Walkthrough</h2>
+    <br><br>
+    <img src="/images/WalkthroughMobile.png">
+    <br><br>
+    <p>
+      <a href="https://www.figma.com/proto/0XEqF7rnhr2pL4gOsQJRMS/Kids-Against-Hunger-Canada-Redesign-(SG-Final-Copy)?type=design&node-id=1038-5206&t=13JWRgUr7BsyUzBg-0&scaling=scale-down&page-id=1038%3A10788&starting-point-node-id=1038%3A5206">Click here</a> to immerse yourself in the final mobile version walkthrough. Experience how research and iterative design merge seamlessly to create an impactful user experience. Navigate through the pages and witness the transformation.
+    </p>
+  </section>
 
-            </div>
-            <div>
-                <div class="footer-content" id="contact">
-                    <h1 class="super-h1">Say hello!</h1><br>
-                    <button>Book a discovery meeting</button>
 
-
+  <!-- Closing Remarks -->
+  <section class="container my-5">
+    <h2>Closing Remarks</h2>
+    <p>
+      Thank you for exploring this UX/UI case study. The redesigned Kids Against Hunger Canada website is a testament to our dedication to creating user-friendly, transparent, and impactful digital experiences. Feel free to reach out for more details or collaboration opportunities.
+    </p>
+  
+    <div class="containerCompetition">
+            
+        <div class="card2" style="width: 30rem;">
+            <h2 class="h2ProblemStatement"></h1>
+            <div class="card-body"><BR>
+                <h2 class="h2ProblemStatement">Feedback</h1>
+              <p class="card-text">"Great use of primary colours for the style guide since it relates to children. I like the use of black and white photos and the simplicity.""
+                
                 </div>
-
-
             </div>
-        </div>
+        
+  
+      
+            
+            <div class="card2" style="width: 30rem;">
+                <h2 class="h2ProblemStatement"></h1>
+                <div class="card-body"><BR>
+                    <h2 class="h2ProblemStatement">Feedback</h1>
+                  <p class="card-text">"Love the icons you guys used in the donation page, fits the branding so well."
+                    
+                    </div>
+                </div>
+           
+            
+                            
+                <div class="card2" style="width: 30rem;">
+                    <h2 class="h2ProblemStatement"></h1>
+                    <div class="card-body"><BR>
+                        <h2 class="h2ProblemStatement">Feedback</h1>
+                      <p class="card-text">"I love the cohesive colour scheme you guys chose. It feels serious, and colourful. Clean and the message is being sent accross."
+                        
+                        </div>
+                    </div>
+                </div>
+                
+  
+  
+    <button class="b1">Back to Main</button>
+  </section>
 
 
-</body>
 
-<script src="js/index.js"></script>
-</html>
+
+
+
+</section>
+</div>
+<div>
+    <div class="footer-content" id="contact">
+        <h1 class="super-h1">Say hello!</h1><br>
+        <button class="b1">Book a discovery meeting</button>
+
+
+    </div>
+
+
+</div>
+</div>
+<section
