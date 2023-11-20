@@ -137,3 +137,48 @@ footer {
 .footer-list li {
     margin: 5px 0;
 }
+
+.containerProblemStatement {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+
+.card {
+    color: #F2F2F2;
+    background-color: red;
+    padding-left: 10px;
+    padding-top: 20px;
+  
+
+    
+}
+
+.h2ProblemStatement {
+    text-align: center;
+}
+
+.containerStakeholder {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+
+.card2 {
+   
+   padding: 20PX;
+   display: flex;
+  
+  
+
+    
+}
+
+.containerCompetition {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
