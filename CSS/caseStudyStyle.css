@@ -1,14 +1,14 @@
-/* Reset and General Styles */
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    color: #3a3e3d; /* Match main portfolio page colors */
+    color: #3a3e3d; 
 }
 
 header {
     padding: 20px;
-    background-color: #00c9e7; /* Match main portfolio page colors */
+    background-color: #00c9e7; 
 }
 
 .super-h1 {
@@ -60,12 +60,12 @@ nav ul {
 }
 
 .caseStudyHeader h1 {
-    color: #00c9e7; /* Match main portfolio page colors */
+    color: #00c9e7; 
 }
 
 .subheading {
     font-size: 1.2em;
-    color: #3a3e3d; /* Match main portfolio page colors */
+    color: #3a3e3d; 
 }
 
 .caseStudyContent h2 {
@@ -74,7 +74,7 @@ nav ul {
 
 /* Footer Styles */
 footer {
-    background-color: #00c9e7; /* Match main portfolio page colors */
+    background-color: #00c9e7;
     text-align: center;
     padding: 10px 0;
 }
